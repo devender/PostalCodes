@@ -94,7 +94,7 @@ func processFile(fileName string) {
 
 	buffer := bytes.NewBufferString("")
 
-	buffer.WriteString(fmt.Sprintln("INSERT INTO insikt.geolocation_postal_code( " +
+	buffer.WriteString(fmt.Sprintln("INSERT INTO postal_code( " +
 		"country_code, postal_code, state, state_code, county, county_code," +
 		"latitude, longitude) VALUES"))
 
