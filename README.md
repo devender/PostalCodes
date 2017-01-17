@@ -12,3 +12,5 @@
 *   ```go build```
 *   ```./PostalCodes > zips.sql```
 *   ```psql test < zips.sql```
+
+Big Thanks to http://www.geonames.org/, if you use this project don't forget to give credit to geonames.org.
